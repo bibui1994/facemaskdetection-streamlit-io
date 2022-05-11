@@ -91,7 +91,7 @@ def clean_output():
        
 def main():
     global file_extension
-    local_css("css/styles.css")
+    local_css("styles.css")
     st.markdown('<h1 align="center">😷 Face Mask Detection</h1>', unsafe_allow_html=True)
     activities = ["Image", "Webcam"]
     st.set_option('deprecation.showfileUploaderEncoding', False)
