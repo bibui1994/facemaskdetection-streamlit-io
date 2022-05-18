@@ -13,7 +13,7 @@ import cv2
 
 
 def mask_detect(img):
-  model = keras.models.load_model("1_MTCNN_Face_Mask_Detection/Outputs/mask_detector_vgg19.h5")
+  model = keras.models.load_model("./cnn_model.h5")
 
   img_ary = img_to_array(img)
   detector = MTCNN()
